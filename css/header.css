@@ -1,0 +1,88 @@
+header {
+	display: flex;
+	align-items: center;
+	padding: 5px 0;
+}
+
+header .tiny {
+	display: none;
+}
+
+header h1,
+header p {
+	margin: 0;
+}
+.title {
+	font-family: 'DynaPuff', cursive;
+	font-size: 2.75rem;
+	font-weight: 900;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	color: #FFDB85;
+
+	text-align: center;
+	margin-right: 0;
+	
+}
+.heart{
+	color: #FF0000;
+}
+
+.rules{
+	background: none;
+	border: none;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 30px;
+	top: 25px;
+
+	cursor: pointer;
+	color: #fff;
+	font-size: 0.95rem;
+	font-family: 'DynaPuff', cursive;
+
+/* header p {
+	color: #b9b9b9;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+header span {
+	color: #fff;
+	padding: 3px 6px;
+	border-radius: 2px;
+	text-shadow: 1px 1px 0 #3a3a3c;
+}
+
+header a {
+	color: #fff; */
+}
+
+/* HEADER RESPONSIVE */
+@media only screen and (max-width: 600px) {
+	.title {
+		font-size: 2.5rem;
+		letter-spacing: -2px;
+		
+	}
+
+	.rules {
+		font-size: 0.85rem;
+		
+	}
+}
+
+
+@media only screen and (max-width: 550px) {
+	.title {
+		font-size: 2.3rem;
+		letter-spacing: -2px;
+		
+	}
+
+	.rules {
+		font-size: 0.75rem;
+		
+	}
+}
