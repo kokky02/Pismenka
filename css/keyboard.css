@@ -10,7 +10,7 @@
 .keyboard .winner {
 	display: flex;
 	justify-content: center;
-	gap: 1px;
+	gap: 2px;
 	margin-bottom: 1px;
 
 	touch-action: manipulation;
