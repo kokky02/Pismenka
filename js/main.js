@@ -404,3 +404,7 @@ keyboard.addEventListener('click', (event) => {
         addLetter(character)
     }
 })
+
+
+
+

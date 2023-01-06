@@ -29,6 +29,7 @@
     <script defer src="./js/confets.js" ></script>
     <script src="./js/allWordsCS.js"></script>
     <script src="./js/allWordsENG.js"></script>
+    <script defer src="./js/languageChanger.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,6 +40,15 @@
 <body>
     <header class="main-header">
         <div class="title">Písmenka <div class="heart">♥️</div></div>
+
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="leftClick()">CS</button>
+                <button type="button" class="toggle-btn" onclick="rightClick()">ENG</button>
+            </div>
+        </div>
+
         <div class="menu">
             <button href="#" data-micromodal-trigger="modal-rules" class="rules">Pravidla❓</button>
         </div>

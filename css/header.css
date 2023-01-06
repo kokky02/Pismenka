@@ -41,23 +41,43 @@ header p {
 	color: #fff;
 	font-size: 0.95rem;
 	font-family: 'DynaPuff', cursive;
-
-/* header p {
-	color: #b9b9b9;
-	font-size: 0.8rem;
-	font-weight: bold;
 }
 
-header span {
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	border-radius: 30px;
+	background: #565758;
+	
+}
+
+.toggle-btn{
+	padding: 10px 40px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;	
 	color: #fff;
-	padding: 3px 6px;
-	border-radius: 2px;
-	text-shadow: 1px 1px 0 #3a3a3c;
 }
 
-header a {
-	color: #fff; */
+#btn{
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #e67e22;
+	border-radius: 30px;
+	transition: .5s;
+	
 }
+
+
+
+
 
 /* HEADER RESPONSIVE */
 @media only screen and (max-width: 600px) {

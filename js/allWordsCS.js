@@ -30,6 +30,7 @@ const allWordsCS = [
     'alias',
     'audio',
     'bahno',
+    'dláto',
     'domek',
     'bulva',
     'balón',
@@ -647,5 +648,17 @@ const allWordsCS = [
     'obraz',
     'ofina',
     'odraz',
+    'ostří',
+    'bodec',
+    'čumák',
+    'osmák',
+    'ďolík',
+    'ortel',
+    'otrok',
+    'olovo',
+    'oltář',
+    'oliva',
+    ''
+
     
     ]
