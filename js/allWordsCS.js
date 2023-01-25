@@ -660,6 +660,7 @@ const allWordsCS = [
     'oltář',
     'oliva',
     'číňan',
+    'lotos',
     'pájka',
     'pádlo',
     'parta',
